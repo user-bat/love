@@ -38,3 +38,18 @@ body {
     width: 25%;
     transform: rotate(45deg);
 }
+@media (max-width: 768px) {
+    .card {
+        width: 60%; /* Ширина карточки для мобильных устройств */
+        padding: 5px; 
+        height: 75%;
+    }
+
+    .message {
+        font-size: 12px; /* Уменьшение размера шрифта */
+    }
+
+    .img, .img1 {
+        width: 40%;
+    }
+}
