@@ -1,0 +1,40 @@
+body {
+    background-color: #ffccff; /* Слегка розовый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background-color: #ff99cc; /* Розовая карточка */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Черная тень */
+    text-align: center;
+    width: 50%;
+}
+.message {
+    padding: 20px;
+    font-size: 24px;
+    color: #000; /* Черный текст */
+}
+.img{
+    margin-top: -15%;
+    margin-right: 72%;
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    width: 25%;
+    transform: rotate(-45deg);
+}
+.img1{
+    margin-top: 15%;
+    margin-left: 72%;
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    width: 25%;
+    transform: rotate(45deg);
+}
